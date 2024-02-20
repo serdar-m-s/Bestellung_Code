@@ -10,23 +10,28 @@ public class ArrayPlayground {
 
 		// System.out.println(numArr);
 
-		System.out.println("---------------");
-		System.out.print(numArr[0] + ",");
-		System.out.print(numArr[1] + ",");
-		System.out.print(numArr[2] + ",");
-		System.out.println(numArr[3]);
-		System.out.println("---------------");
+		outputArr();
 
 		numArr[0] = 100;
 
+		outputArr();
+	
+	}
+	
 
+	static void outputArr(){
 		System.out.println("---------------");
 		System.out.print(numArr[0] + ",");
 		System.out.print(numArr[1] + ",");
 		System.out.print(numArr[2] + ",");
 		System.out.println(numArr[3]);
 		System.out.println("---------------");
-		
 	}
 
+
 }
+
+
+
+
+
