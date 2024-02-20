@@ -28,12 +28,30 @@ public class ArrayPlayground {
 
 	static void outputArr(){
 		System.out.println("---------------");
-		System.out.print(numArr[0] + ",");
-		System.out.print(numArr[1] + ",");
-		System.out.print(numArr[2] + ",");
-		System.out.print(numArr[3] + ",");
-		System.out.println(numArr[4]);
+
+
+		//	System.out.print(numArr[0] + ",");
+		//	System.out.print(numArr[1] + ",");
+		//	System.out.print(numArr[2] + ",");
+		//	System.out.print(numArr[3] + ",");
+		//	System.out.println(numArr[4]);
+
+
+		for (int i = 0; i< numArr.length;i++) {
+			if (i < ) {
+				if (condition:var(boolean)) {
+					
+				} else {
+					
+				}
+			}
+				
+			}
+			System.out.println(numArr[i]);	
+		}
 		System.out.println("---------------");
+
+
 	}
 
 
