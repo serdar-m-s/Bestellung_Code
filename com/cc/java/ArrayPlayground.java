@@ -13,11 +13,17 @@ public class ArrayPlayground {
 		outputArr();
 
 		numArr[0] = 100;
+		numArr[3] = 101;
+
+		System.out.println("Elemente:" + numArr.length);
+		numArr[numArr.length-1] = 101;
+
+		
 
 		outputArr();
 	
 	}
-	
+
 
 	static void outputArr(){
 		System.out.println("---------------");
