@@ -3,7 +3,7 @@ package com.cc.java;
 
 public class ArrayPlayground {
 
-	static int [] numArr = {2,4,6,7};
+	static int [] numArr = {2,4,6,7,20};
 	// static String strArr = {"Ich", "bin", "Maxine", "Mützerich"};
 
     public static void main(String[] args) {
@@ -13,12 +13,13 @@ public class ArrayPlayground {
 		outputArr();
 
 		numArr[0] = 100;
-		numArr[3] = 101;
+		numArr[4] = 101;
 
 		System.out.println("Elemente:" + numArr.length);
+		// numArr[3] = 101;
 		numArr[numArr.length-1] = 101;
 
-		
+
 
 		outputArr();
 	
@@ -30,7 +31,8 @@ public class ArrayPlayground {
 		System.out.print(numArr[0] + ",");
 		System.out.print(numArr[1] + ",");
 		System.out.print(numArr[2] + ",");
-		System.out.println(numArr[3]);
+		System.out.print(numArr[3] + ",");
+		System.out.println(numArr[4]);
 		System.out.println("---------------");
 	}
 
