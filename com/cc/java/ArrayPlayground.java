@@ -38,16 +38,15 @@ public class ArrayPlayground {
 
 
 		for (int i = 0; i< numArr.length;i++) {
-			if (i < ) {
-				if (condition:var(boolean)) {
-					
-				} else {
-					
+			if (i < numArr.length -1) {
+				System.out.print(numArr[i] +",") ;
+			} else {
+				System.out.println(numArr[i]);
 				}
 			}
 				
 			}
-			System.out.println(numArr[i]);	
+				
 		}
 		System.out.println("---------------");
 
