@@ -43,11 +43,11 @@ public class ArrayPlayground {
 			} else {
 				System.out.println(numArr[i]);
 				}
-			}
+		
 				
 			}
 				
-		}
+		
 		System.out.println("---------------");
 
 
