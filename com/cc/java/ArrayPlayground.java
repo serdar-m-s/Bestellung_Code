@@ -27,7 +27,8 @@ public class ArrayPlayground {
 
 
 	static void outputArr(){
-		System.out.println("---------------");
+
+	//	System.out.println("---------------");
 
 
 		//	System.out.print(numArr[0] + ",");
@@ -36,16 +37,23 @@ public class ArrayPlayground {
 		//	System.out.print(numArr[3] + ",");
 		//	System.out.println(numArr[4]);
 
+		System.out.println("---------------");
+
+
 
 		for (int i = 0; i< numArr.length;i++) {
 			if (i < numArr.length -1) {
+
 				System.out.print(numArr[i] +",") ;
-			} else {
+			} 
+			else
+		    {
 				System.out.println(numArr[i]);
-				}
-		
-				
 			}
+		
+	//    	System.out.println(numArr[i]);
+			
+		}
 				
 		
 		System.out.println("---------------");
